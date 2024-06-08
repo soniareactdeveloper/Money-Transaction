@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cashoo</title>
+  <link rel="icon" href="images/logo.png">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ================================ login part start ================================ -->
+  <section id="login">
+      <div class="container logContent">
+        <p class="error"></p>
+        <h1>Log in</h1>
+        <form class="logForm">
+           <div class="account">
+            <label for="account">Account Number</label>
+            <br>
+            <input class="accountInput" type="number" id="account" name="account" placeholder="98887764654">
+           </div>
+           <div class="pin">
+            <label for="pin">Cashoo Pin</label>
+            <br>
+            <input class="pinInput" type="password" id="pin" name="pin" placeholder="Enter Cashoo Pin">
+           </div>
+        </form>
+        <a class="forgot" href="#">Forgot pin? try pin reset </a>
+        <div class="logBtn">
+          <a href="#">LogIn</a>
+        </div>
+      </div>
+  </section>
+  <!-- ================================ login part end   ================================ -->  
+  <!-- ================================ forget password part start   ================================ --> 
+  <section id="forget">
+      <div class="container forgetContent">
+        <p class="forgetError"></p>
+        <h1>Reset Password</h1>
+        <form class="forgetForm">
+           <div class="password">
+            <label for="password">Password*</label>
+            <br>
+            <input class="passwordInput" type="password" id="password" name="password" placeholder="********">
+           </div>
+           <div class="confirm">
+            <label for="confirm">Confirm Password*</label>
+            <br>
+            <input class="confirmInput" type="password" id="confirm" name="confirm" placeholder="********">
+           </div>
+        </form>
+        <div class="resetBtn">
+          <a href="#">Reset Password</a>
+        </div>
+      </div>
+  </section>
+    <!-- ================================ forget password part end   ================================ --> 
+    <!-- ================================ home page part start   ================================ -->
+  <section id="home">
+    <div class="container">
+      <div class="homeContent">
+        <div class="homeHeading">
+          <div class="homeHeadingContent">
+           <div class="homeImg"><img src="images/girl.jpg" alt="profile"></div>
+           <div class="mainBalance">
+             <h3>Sonia <span>12345678</span></h3>
+             <br>
+             <h1 class="balanceInput">00.00</h1>
+          </div>
+         </div>
+         <div class="homeMenu">
+           <div class="homeAward"><img src="images/history.png" alt="history"></div>
+           <div class="homeIcon">transactions</div>
+         </div>
+        </div>
+        <!-- features part -->
+        <div class="features featuresOne">
+          <div class="featuresContent">
+            <img src="images/addMoney.png" alt="add">
+            <h5 class="addMoney">Add money</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/mobileRecharge.png" alt="add">
+            <h5 class="recharge">recharge</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/cashOut.png" alt="add">
+            <h5 class="cashOut">cash out</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/send.png" alt="add">
+            <h5 class="sendMoney">Send money</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/paybill.png" alt="add">
+            <h5 class="payBill">Pay bill</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/payment.png" alt="add">
+            <h5 class="payment">payment</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/saving.png" alt="add">
+            <h5 class="saving">saving</h5>
+          </div>
+          <div class="featuresContent">
+            <img src="images/loan.png" alt="add">
+            <h5 class="loan">loan</h5>
+          </div>
+        </div>
+        <!-- features part end -->
+      <!--  add money part end -->
+      <div class="addMoneyContent">
+            <button class="addGoBack">Go back</button>
+            <p class="moneyError"></p>
+            <input class="addMoneyInput" type="number" placeholder="enter your amount">
+            <button class="addMoneyBtn">Add</button>
+      </div>
+      <!--  add money part end -->
+      <!--recharge part start -->
+       <div class="rechargeContent">
+        <div class="Rhead"><button class="rechargeGoBack">Go back</button></div>
+        <div class="RContent">
+          <form>
+            <p class="Rechargeerror"></p>
+            <input class="rechargeInput" type="number" placeholder="enter mobile no">
+            <select name="prepaid" id="prepaid">
+              <option value="prepaid">prepaid</option>
+              <option value="postpaid">postpaid</option>
+            </select>
+            <select name="sim" id="sim">
+              <option value="sim">grameenphone</option>
+              <option value="sim">airtel</option>
+              <option value="sim">banglalink</option>
+              <option value="sim">tel talk</option>
+              <option value="sim">robi</option>
+            </select>
+            <input class="rechargeAmount" type="number" placeholder="amount">
+            <input class="rRecharge" type="reset">
+          </form>
+          <button class="rechargeBtn">Recharge</button>
+        </div>
+      </div>
+      <!--recharge part end -->
+      <!-- cash out part start-->
+        <div class="cashOutContent">
+          <div class="cashOutImg"><button class="addGoBack cashGoBack">Go back</button></div>
+          <div class="formBtn">
+            <form class="cashOutForm">
+              <p class="cashOuterror"></p>
+              <select name="prepaid" id="prepaid">
+                <option value="agent">agent</option>
+                <option value="Atm">atm</option>
+              </select>
+              <input class="cashOutInput" type="number" placeholder="enter mobile no">
+              <input class="cashOutAmount" type="number" placeholder="amount">
+              <input type="reset">
+            </form>
+            <button class="cashOutBtn">Cash Out</button>
+          </div>
+          </div>
+        <!-- cash out part end -->
+         <!--send money part start -->
+         <div class="sendMoneyContent">
+          <div class="sendMoneyImg"><button class="addGoBack sendGoBack">Go back</button></div>
+          <div class="formbtn">
+            <form class="sendMoneyForm">
+              <p class="sendError"></p>
+              <input class="sendMoneyInput" type="number" placeholder="enter mobile no">
+              <input class="sendMoneyAmount" type="number" placeholder="amount">
+              <input type="reset">
+            </form>
+            <button class="sendMoneyBtn">send</button>
+          </div>
+          </div>
+        <!--send money part end -->
+        <!-- pay billl part start  -->
+        <div class="payBillContent">
+          <div class="payBillImg"><button class="addGoBack payGoBack">Go back</button></div>
+         <div class="formbtn">
+          <form class="payBillForm">
+            <p class="billError"></p>
+            <input class="payBillInput" type="number" placeholder="enter mobile no">
+            <select name="bills" id="bills">
+              <option value="bills">Electricity</option>
+              <option value="bills">Gas</option>
+              <option value="bills">Water</option>
+              <option value="bills">Internet</option>
+              <option value="bills">Telephone</option>
+              <option value="bills">Tv</option>
+              <option value="bills">Others</option>
+            </select>
+            <input class="payBillAmount" type="number" placeholder="amount">
+            <input class="rpayBill" type="reset">
+          </form>
+           <button class="payBillBtn">pay</button>
+         </div>
+        </div>
+        <!--  pay bill part end-->
+        <!-- payment part start -->
+        <div class="paymentContent">
+          <div class="paymentImg"><button class="addGoBack paymentGoBack">Go back</button></div>
+         <div class="formbtn">
+          <form class="paymentForm">
+            <p class="paymentError"></p>
+            <input class="paymentInput" type="number" placeholder="enter mobile no">
+            <select name="bills" id="bills">
+              <option value="bills">Cashoo</option>
+              <option value="bills">Visa Card</option>
+              <option value="bills">Pay later</option>
+            </select>
+            <input class="paymentAmount" type="number" placeholder="amount">
+            <input class="rpayment" type="reset">
+        </form>
+        <button class="paymentBtn">payment</button>
+         </div>
+        </div>
+        <!-- payment part end -->
+        <!-- saving part start -->
+          <div class="savingContent">
+            <div class="savingImg"><button class="addGoBack savingGoBack">Go back</button></div>
+            <div class="formbtn">
+              <form class="savingForm">
+                <p class="savingError"></p>
+                <input class="savingAmount" type="number" placeholder="amount">
+                <input class="rsaving" type="reset">
+            </form>
+              <button class="savingBtn">save</button>
+            </div>
+          </div>
+          <!-- saving part start -->
+        <!-- loan part start-->
+        <div class="loanContent">
+          <div class="loanImg"></div>
+          <div class="loanContentCard">
+            <h2>Thank you for your interest</h2>
+            <p>to get loan <span>- maintain balance in your bkash account</span><span>-make more transactions using payment and add money</span></p>
+            <button class="loanBtn">Go Back</button>
+          </div>
+        </div>
+      <!-- loan part end-->
+       <!-- history part start here -->
+       <div id="history">
+        <h2>Cashoo History</h2>
+        <ul class="transactionList"></ul>
+        <button class="historyBtn">Go Back</button>
+      </div>
+       <!-- history part end here -->
+      <!-- ================================slider part start ===========================================-->
+      <div class="slider">
+        <div><img src="images/cashBanner.png"   alt="banner"></div>
+        <div><img src="images/saleBanner.png"   alt="banner"></div>
+        <div><img src="images/ticketBanner.png" alt="banner"></div>
+        <div><img src="images/moneyBanner.png"  alt="banner"></div>
+      </div>  
+      <!-- ================================slider part end ===========================================-->
+       <!-- -=========================== my cashooo part start =======================================-->
+       <div class="myCashoo">
+        <h2>My Cashoo</h2>
+        <div class="mycashooContent">
+           <div class="cashooFeatures">
+             <img src="images/gas.png" alt="casho">
+             <h2>Titas Gas</h2>
+           </div>
+          <div class="cashooFeatures">
+            <img src="images/sendMoneyS.png" alt="casho">
+            <h2>01728737378</h2>
+          </div>
+          <div class="cashooFeatures">
+            <img src="images/recharge.png" alt="casho">
+            <h2>Priyo Number</h2>
+          </div>
+        </div>
+      </div>
+      <!-- -======================================== my cashooo part start================================= -->
+      <!-- ======================================== more services part start=============================== -->
+        <div class="myCashoo">
+          <h2>More Services</h2>
+          <div class="mycashooContent">
+            <div class="featuresContent one">
+              <img src="images/bankToPhn.png" alt="add">
+              <h5>Bank to Mobile</h5>
+            </div>
+            <div class="featuresContent one">
+              <img src="images/world.png" alt="add">
+              <h5>remittance</h5>
+            </div>
+            <div class="featuresContent one">
+              <img src="images/care.png" alt="add">
+              <h5>Donation</h5>
+            </div>
+          </div>
+        </div>
+        <!-- ======================================= more services part end ================================= -->
+        <!-- ======================================= navBar part start ====================================== -->
+         <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Scan</a></li>
+            <li><a href="#">Inbox</a></li>
+          </ul>
+         </nav>
+        <!-- ======================================= navBar part start ======================================== -->
+      </div>
+    </div>
+  </section>    
+<!-- ================================ home page part end   ================================ -->
+<!-- =======================  js file ==================== -->
+  <script src="js/jquery-1.12.4.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
